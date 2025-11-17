@@ -6,4 +6,8 @@ Official implementation of **FollowMyHold** (3DV 2026).
 
 The code and demo releases are planned for December 2025.
 
+### 🚀 Updates:
+- **[November 14 2025]** <a href="https://github.com/aidilayce/FollowMyHold/tree/main/test_splits">Test splits</a> are now available.
+- **[November 9 2025]** Got accepted to 3DV 2026!
+
 ![teaser](assets/teaser.png)
