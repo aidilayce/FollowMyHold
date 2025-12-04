@@ -4,6 +4,8 @@ Official implementation of **FollowMyHold** (3DV 2026).
 <a href='https://aidilayce.github.io/FollowMyHold-page/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
 <a href='https://arxiv.org/pdf/2508.18213'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
 
+![teaser](assets/teaser.png)
+
 > **Status:** 🚧 **Core Logic Available.** The full initialization & optimization pipeline and demo releases are being refactored and are planned for **January 2026**.
 
 ### 🚀 Updates:
@@ -17,4 +19,3 @@ To support early research, we’re releasing the core logic files. These are mea
 * `src/hunyuan_guided.py`: Main architecture and optimization-in-the-loop guidance implementation.
 * `src/kaolin_sdf_ops.py`: Custom SDF conversion utilities using the Kaolin library.
 
-![teaser](assets/teaser.png)
