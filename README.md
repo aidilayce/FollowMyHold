@@ -141,10 +141,10 @@ If you use this code in your research, please consider citing the paper:
 
 ```bibtex
 @article{aytekin2025follow,
-  title={Follow my hold: Hand-object interaction reconstruction through geometric guidance},
+  title={Follow My Hold: Hand-object Interaction Reconstruction through Geometric Guidance},
   author={Aytekin, Ayce Idil and Rhodin, Helge and Dabral, Rishabh and Theobalt, Christian},
   year={2026},
-  journal={3DV},
+  journal={International Conference on 3D Vision},
 }
 ```
 
