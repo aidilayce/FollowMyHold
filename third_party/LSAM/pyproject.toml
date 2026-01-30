@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lang-sam"
+version = "0.2.1"
+description = "Language segment-anything"
+readme = "README.md"
+authors = [
+  { name = "Luca Medeiros", email = "lucamedeiros@outlook.com" },
+]
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lang_sam", "lang_sam.*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+fix = true
+select = [
+    # https://github.com/charliermarsh/ruff#pyflakes-f
+    "F", # Pyflakes
+    # https://github.com/charliermarsh/ruff#pycodestyle-e-w
+    "E", # pycodestyle
+    "W", # Warning
+    # https://github.com/charliermarsh/ruff#flake8-comprehensions-c4
+    # https://github.com/charliermarsh/ruff#mccabe-c90
+    "C", # Complexity (mccabe+) & comprehensions
+    # https://github.com/charliermarsh/ruff#pyupgrade-up
+    "UP", # pyupgrade
+    # https://github.com/charliermarsh/ruff#isort-i
+    "I", # isort
+]
+ignore = [
+    # https://github.com/charliermarsh/ruff#pycodestyle-e-w
+    "E402", # module level import not at top of file
+    # https://github.com/charliermarsh/ruff#pyupgrade-up
+    "UP006", # use-pep585-annotation
+    "UP007", # use-pep604-annotation
+    "E741", # Ambiguous variable name
+]
+[tool.ruff.per-file-ignores]
+"__init__.py" = [
+    "F401",  # unused import
+    "F403",  # star imports
+    ]
+
+[tool.ruff.mccabe]
+max-complexity = 24
+
+[tool.ruff.pydocstyle]
+convention = "numpy"

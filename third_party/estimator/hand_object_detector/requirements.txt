@@ -1,0 +1,13 @@
+scipy
+pillow>=7.1.0
+easydict
+cython
+cffi
+opencv-python
+msgpack
+matplotlib
+pyyaml
+tensorboardX
+tqdm
+jinja2
+pascal_voc_writer
