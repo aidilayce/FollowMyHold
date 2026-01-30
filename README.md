@@ -7,7 +7,7 @@ Official implementation of FollowMyHold (3DV 2026).
 ![teaser](assets/teaser.png)
 
 ### 🚀 Updates:
-- **[January 29 2026]** Full code is released!
+- **[January 30 2026]** Full code is released!
 - **[December 4 2025]** Added core model logic files (see `src/`) to make it easier to understand how the method works.
 - **[November 14 2025]** <a href="https://github.com/aidilayce/FollowMyHold/tree/main/test_splits">Test splits</a> are now available.
 - **[November 9 2025]** Got accepted to 3DV 2026!
